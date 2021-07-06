@@ -1,0 +1,103 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.tomato-color{
+    color: tomato;
+}
+h1{
+    font-size:35px;
+    margin:0 ;
+}
+.gray-color-text{
+    color: gray;
+}
+.flexible-condiner{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 40%;
+    padding:0 5%;
+    margin: auto;
+}
+.half-width img{
+    width: 100%;
+}
+.link-buttoon{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700; 
+    border-radius: 25px;
+
+}
+#about-image{
+    width: 40%;
+}
+#about-image img{
+    height: 400px;
+    width: auto;
+    margin-top: 100px;
+    padding-left: 20%;
+}
+#about-info{
+    width: 30%;
+    padding-right: 10%;
+    margin: auto;
+}
+#about-area{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+.recipie-inf0{
+    text-align: center;
+    padding: 5px;
+}
+.recipie-item{
+    height: 450px;
+    box-shadow: 1px 1px 20px rgb(228, 214, 214);
+    width: 30%;
+    margin: 0 3.33%;
+    border-radius: 20px;
+}
+.recipie-images{
+    height: 50%;
+    padding: 5%;
+    
+}
+.recipie-images img{
+    height: 100%;
+    width: 100%;
+}
+.recipie-title{
+    height: 30%;
+    padding: 5%;
+
+}
+.social-media-count-area{
+    margin: auto;
+    height: 200px;
+    width: 95%;
+    box-shadow: 1px 1px 10px #cac4c4;
+    margin:0 auto 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+.social-followers{
+    width: 30%;
+    margin: 0 3.33%;
+    padding-top: 40px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 10px;   
+}
+footer h2{
+    color: gray;
+}
